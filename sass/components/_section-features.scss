@@ -1,0 +1,51 @@
+.section__box {
+  padding-bottom: 0;
+}
+
+.features {
+  display: flex;
+
+  &__subtitle {
+    color: $primary-text-title;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__icon {
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  &__picture {
+    background-color: $background;
+    max-height: 120px;
+    margin-bottom: 30px;
+  }
+}
+
+.features__item {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.features .title {
+  color: $primary-text-title;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
+}

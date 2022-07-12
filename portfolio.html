@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
 
   <body>
@@ -66,29 +66,35 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="section-title visually-hidden">Портфолио</h1>
-          <ul class="nav-btn">
-            <li class="link-btn">
-              <button type="button" class="button">Все</button>
+          <h1 class="title__visually-hidden">Портфолио</h1>
+          <ul class="portfolio-nav">
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Все</button>
             </li>
-            <li class="link-btn">
-              <button type="button" class="button">Веб-сайты</button>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">
+                Веб-сайты
+              </button>
             </li>
-            <li class="link-btn">
-              <button type="button" class="button">Приложения</button>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">
+                Приложения
+              </button>
             </li>
-            <li class="link-btn">
-              <button type="button" class="button">Дизайн</button>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Дизайн</button>
             </li>
-            <li class="link-btn">
-              <button type="button" class="button">Маркетинг</button>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">
+                Маркетинг
+              </button>
             </li>
           </ul>
 
-          <ul class="features portfolio">
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+          <ul class="portfolio-list">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/tehnokryk.jpg"
                     alt="Экран ноутбука с открытым вэб сайтом"
@@ -96,7 +102,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -105,15 +111,15 @@
                   </div>
                 </div>
 
-                <div class="image">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="link">Веб-сайт</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Технокряк</h2>
+                  <p class="portfolio-desck__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/NewOrlean.jpg"
                     alt="Постер New Orlean vs Golden Star"
@@ -121,7 +127,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -129,15 +135,17 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                  <p class="link">Дизайн</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-desck__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/Seafood.jpg"
                     alt="Лого ресторана Seafood"
@@ -145,7 +153,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -153,15 +161,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Ресторан Seafood</h2>
-                  <p class="link">Приложение</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Ресторан Seafood</h2>
+                  <p class="portfolio-desck__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/Prime.jpg"
                     alt="Наушники"
@@ -169,7 +177,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -177,15 +185,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Проект Prime</h2>
-                  <p class="link">Маркетинг</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Проект Prime</h2>
+                  <p class="portfolio-desck__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/Boxes.jpg"
                     alt="Две коробки"
@@ -193,7 +201,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -201,15 +209,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Проект Boxes</h2>
-                  <p class="link">Приложение</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Проект Boxes</h2>
+                  <p class="portfolio-desck__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/InspirationhasnoBorders.jpg"
                     alt="Монитор компьютера"
@@ -217,7 +225,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -225,15 +233,17 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="link">Веб-сайт</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio-desck__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/LimitedEdition.jpg"
                     alt="книга"
@@ -241,7 +251,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -249,15 +259,17 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Издание Limited Edition</h2>
-                  <p class="link">Дизайн</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="portfolio-desck__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/LAB.jpg"
                     alt="этикетка"
@@ -265,7 +277,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -273,15 +285,15 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Проект LAB</h2>
-                  <p class="link">Маркетинг</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Проект LAB</h2>
+                  <p class="portfolio-desck__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="features-item">
-              <a class="features-link" href="">
-                <div class="feautures-portfolio">
+            <li class="portfolio-list__item">
+              <a class="portfolio-list__link" href="">
+                <div class="portfolio-wrap">
                   <img
                     src="./images/GrowingBusiness.jpg"
                     alt="ноутбук"
@@ -289,7 +301,7 @@
                     height="294"
                   />
                   <div>
-                    <p class="feautures-text">
+                    <p class="portfolio-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -297,9 +309,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="image">
-                  <h2 class="title">Growing Business</h2>
-                  <p class="link">Приложение</p>
+                <div class="portfolio-desck">
+                  <h2 class="portfolio-desck__title">Growing Business</h2>
+                  <p class="portfolio-desck__text">Приложение</p>
                 </div>
               </a>
             </li>
